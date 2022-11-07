@@ -1,0 +1,322 @@
+body {
+    background-color: rgb(238,238,238);
+}
+
+/* ---------------Barra Navegación---------------- */
+
+#nav-bar{
+    
+    display: flex;
+    background: black;
+    width: 100%;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+}
+
+#header-img {
+    width: 60px;
+    height: 60px;    
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    bottom: 13px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 500px;
+}
+
+.lista_navbar {
+    padding-left: 110px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: end;
+    width: 100%; 
+    cursor: pointer;   
+}
+
+.caract_demo_precio {
+    
+    display: inline;
+    padding-left: 70px;
+    position: relative;
+    top: 10px;
+    right: 10px; 
+}
+
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+/* ---------------Sección Email---------------- */
+
+
+#mail {
+
+    margin-top: 90px;
+}
+
+.subtitle {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+
+}
+
+#form {
+
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+#email {
+
+    width: 250px;
+    margin: 0 auto;
+}
+
+.boton {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(0,116,155);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top:  30px;
+    cursor: pointer;
+}
+
+.boton:hover {
+
+    background-color: rgb(0, 50, 66);
+}
+
+.linea_sep1 {
+    height: 8px;
+    background-color: black;
+}
+
+
+/* ---------------Sección Características---------------- */
+
+#grid {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 28px;
+    margin-left: 10px;
+}
+
+
+
+.descripcion h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    margin-bottom: 5px;
+    color: rgb(0,116,155);
+
+}
+
+.descripcion p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+.icon-premiun {
+    font-size: 70px;
+    color: rgb(0,116,155);
+    padding-right: 40px;
+
+}
+
+.icon-delivery {
+    font-size: 70px;
+    color: rgb(0,116,155);
+    padding-right: 40px;
+}
+
+.icon-quality {
+    font-size: 70px;
+    color: rgb(0,116,155);
+    padding-right: 30px;
+}
+
+/* ---------------Sección Demo---------------- */
+
+
+#video {
+    display: block;
+    margin: auto;
+
+}
+
+/* ---------------Sección Catalogo---------------- */
+
+#catalogo {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#p {
+    width: 30%;
+    border: 2px black solid;
+}
+
+.guitar_name {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-top: 0;
+
+
+}
+
+.img_guitar {
+
+    display: block;
+    margin: auto;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    border: 2px black solid;
+
+}
+
+
+.precio {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.descrip {
+
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+.btn_seleccionar {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(0,116,155);
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.btn_seleccionar:hover {
+
+    background-color: rgb(0, 50, 66);
+}
+
+/* ---------------Sección footer---------------- */
+
+#footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 100px;
+    justify-content: end;
+
+}
+
+.copyright {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-right: 15px;
+    padding-top: 20px;
+    
+}
+
+
+@media (max-width: 800px) {
+
+    .img_guitar {
+
+        width: 100px;
+        height: 100px;
+  
+    }
+
+
+}
+
+
+@media (max-width: 600px) {
+    #nav-bar {
+        padding-bottom: 50px;
+    }
+    .lista_navbar {
+        display: block;
+        text-align: center;
+        margin: auto;
+
+    }
+    .caract_demo_precio {
+    display: block;
+    margin: auto; 
+
+    }
+    #mail {
+
+        margin-top: 150px;
+    }
+    #video {
+        width: 400px;
+        height: 250px;
+    }
+
+    .img_guitar {
+
+        width: 100px;
+        height: 100px;
+  
+    }
+
+
+}
+
+
